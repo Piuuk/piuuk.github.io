@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Te Quiero Lou</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Questrial&display=swap" rel="stylesheet">
+    
+    <style>
+        /* * CSS (Hojas de Estilo en Cascada)
+         * Aquí se define toda la apariencia visual de la página:
+         * colores, fuentes, espaciado, etc.
+        */
+
+        /* Estilo base para toda la página */
+        body {
+            /* Color de fondo suave, un rosa pastel muy claro */
+            background-color: #FFF8F6; 
+            
+            /* Fuente principal para el texto: limpia y moderna */
+            font-family: 'Questrial', sans-serif;
+            
+            /* Elimina márgenes por defecto del navegador */
+            margin: 0;
+            
+            /* Asegura que la página ocupe toda la altura de la pantalla */
+            height: 100vh;
+            
+            /* Centra el contenido principal vertical y horizontalmente */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            /* Color de texto principal, un gris suave para no ser muy fuerte */
+            color: #5C5454;
+        }
+
+        /* Contenedor principal para el texto */
+        .container {
+            /* Centra el texto dentro del contenedor */
+            text-align: center;
+            
+            /* Animación sutil para que el contenido aparezca suavemente */
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        /* Estilo para el título principal "Te Quiero Lou" */
+        h1 {
+            /* Fuente elegante y con serifa para darle un toque especial */
+            font-family: 'Playfair Display', serif;
+            
+            /* Tamaño de la fuente, grande para que sea el foco de atención */
+            font-size: 4rem; /* 'rem' es una unidad de medida flexible */
+            
+            /* Color del título, un tono rosa pastel más intenso */
+            color: #E6A7B4;
+            
+            /* Sombra de texto muy sutil para darle profundidad */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.05);
+            
+            /* Elimina el margen inferior para acercar el subtítulo */
+            margin-bottom: 0;
+        }
+
+        /* Estilo para el pequeño subtítulo o mensaje */
+        p {
+            /* Tamaño de fuente más pequeño y legible */
+            font-size: 1.2rem;
+            
+            /* Un poco de espacio entre las letras para un look más aireado */
+            letter-spacing: 1px;
+            
+            /* Añade un margen superior para separarlo del título */
+            margin-top: 10px;
+        }
+
+        /* Pequeño adorno visual: un corazón */
+        .heart {
+            font-size: 1.5rem;
+            color: #E6A7B4; /* Mismo color que el título para cohesión */
+            margin-top: 20px; /* Espacio por encima del corazón */
+        }
+        
+        /* Animación para la aparición suave del contenido */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        /* Estilos para pantallas más pequeñas (móviles) */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 3rem; /* Reduce el tamaño del título en móviles */
+            }
+            p {
+                font-size: 1rem; /* Reduce el tamaño del subtítulo */
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <h1>Te Quiero Lou</h1>
+        
+        <p>más de lo que las palabras pueden decir.</p>
+
+        <div class="heart">
+            ♡
+        </div>
+
+    </div>
+
+</body>
+</html>
